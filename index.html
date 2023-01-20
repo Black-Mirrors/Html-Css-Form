@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+     <link rel="stylesheet" type="text/css" href="styles.css"/>
+      </head>
+       <body>
+        <h1>REGISTRER NOW</h1>
+         <p>please fill out this form with the required information below.</p>
+          <form>
+           <fieldset>
+            <label id="name"         for="">Enter your first name:    <input type="text"    name="name"         required/></label>
+            <label id="last-name"    for="">Enter Your last name:     <input type="text"    name="last-name"    required/></label>
+            <label id="email"        for="">Enter your email address: <input type="email"   name="email"        required/></label>
+            <label id="phone-number" for="">Enter your phone number:  <input type="tel"     name="phone-number" required/></label>
+            <label id="age" "        for="">Input your age (years):   <input type="number" min="13" max="120" name="age" required/></label>
+
+           </fieldset>
+            <fieldset>
+             <label id="gender">
+              <label><input type="radio" name="Male"   class="inline"/>Male   </label>
+              <label><input type="radio" name="Female" class="inline"/>Female </label>
+              <label><input type="radio" name="Other"  class="inline"/>Other  </label>
+             </label>
+           </fieldset>
+              <fieldset>
+                <select id="country" name="country">
+                  <option value="">(select one country)</option>
+                  <option value="1">united States</option>
+                  <option value="2">Canada</option>
+                  <option value="3">United kingdom</option>
+                  <option value="4">spain</option>
+                  <option value="5">France</option>
+                  <option value="6">Italy</option>
+                  <option value="7">German</option>
+                  <option value="8">Japan</option>
+                  <option value="9">Korea</option>
+                  <option value="10">China</option>
+                  <option value="11">Rusia</option>
+                  <option value="12">Mexico</option>
+                  <option value="13">Chile</option>
+                  <option value="14">Argentina</option>
+                  <option value="15">Brazil</option>
+                  <option value="16">Other</option>
+              </select>
+               <label id="comment">Any comments or suggestions?
+                <textarea cols="30" rows="3" placeholder="programming is killing me but I really love how it kills me." name="comment"></textarea>
+               </label>
+                 </fieldset>
+                 <input type="submit" value="Submit">
+                  </form>
+                   </body>
+                    </html>
